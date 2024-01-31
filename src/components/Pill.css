@@ -1,0 +1,7 @@
+.nav-pills .nav-item > .nav-link {
+    border: 1px solid #d0d0d0;
+    border-radius: 20px;
+    padding: 0.5rem 0.8rem;
+    margin: 0 0.5rem;
+    font-size: 11px;
+}
