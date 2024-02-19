@@ -29,7 +29,9 @@ function Card(props) {
             {likeIcon}
             {props.likes}
           </span>
-          <span className="ms-2">
+          <span
+            className={"ms-2 " + (props.views >= 500 ? "text-underline" : "")}
+          >
             <img src="/icons/eye.svg" width="15" />
             {props.views}
           </span>
